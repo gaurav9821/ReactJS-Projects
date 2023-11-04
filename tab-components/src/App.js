@@ -19,6 +19,12 @@ function App() {
       "Next.js (Fullstack framework)",
       "React Native (build native mobile apps with React)",
     ],
+    [
+      "Vanilla JavaScript requires imperative programming",
+      "Imperative Programming: You define all the steps needed to achieve a result",
+      "React on the other hand embraces declarative programming",
+      "With React, you define the goal and React figures out how to get there",
+    ],
   ];
   const [isActiveTab, setIsActiveTab] = useState(0);
   return (
@@ -50,6 +56,12 @@ function App() {
             className={isActiveTab === 2 ? "active" : ""}
           >
             Related Resources
+          </button>
+          <button
+            onClick={() => setIsActiveTab(3)}
+            className={isActiveTab === 3 ? "active" : ""}
+          >
+            React vs JS
           </button>
         </div>
         <div className="tab-content">

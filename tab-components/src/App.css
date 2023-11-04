@@ -45,7 +45,7 @@ body {
   padding: 0.75rem 1rem;
   cursor: pointer;
   transition: all 0.2s ease-out;
-  margin: 2px;
+  margin-right: 2px;
 }
 
 .tab-container > button:hover,
@@ -58,7 +58,7 @@ body {
   background-color: #2d3942;
   border-radius: 0 4px 4px 4px;
   padding: 1rem;
-  width: 500px;
+  width: 600px;
 }
 
 .tab-content li {
